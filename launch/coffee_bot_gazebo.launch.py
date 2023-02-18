@@ -9,7 +9,7 @@ import xacro
 
 def generate_launch_description():
     pkg_name = 'coffee_bot'
-    file_subpath = 'description/coffee_bot_robot.urdf.xacro'
+    file_subpath = 'description/coffee_bot.urdf.xacro'
 
     xacro_file = os.path.join(get_package_share_directory(pkg_name), file_subpath)
     robot_description_raw = xacro.process_file(xacro_file).toxml()
