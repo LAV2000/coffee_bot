@@ -1,0 +1,76 @@
+[0.016s] Invoking command in '/home/lav2000/ros2_ws/src/coffee_bot/build/coffee_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/lav2000/ros2_ws/src/coffee_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot
+[0.429s] -- The C compiler identification is GNU 9.4.0
+[0.716s] -- The CXX compiler identification is GNU 9.4.0
+[0.746s] -- Check for working C compiler: /usr/bin/cc
+[0.852s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.854s] -- Detecting C compiler ABI info
+[0.950s] -- Detecting C compiler ABI info - done
+[0.971s] -- Detecting C compile features
+[0.971s] -- Detecting C compile features - done
+[0.976s] -- Check for working CXX compiler: /usr/bin/c++
+[1.078s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.080s] -- Detecting CXX compiler ABI info
+[1.187s] -- Detecting CXX compiler ABI info - done
+[1.200s] -- Detecting CXX compile features
+[1.201s] -- Detecting CXX compile features - done
+[1.207s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.243s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.243s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.500s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.567s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.700s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.741s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.741s] -- Configured cppcheck include dirs: 
+[1.741s] -- Configured cppcheck exclude dirs and/or files: 
+[1.765s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.765s] -- Configured cpplint exclude dirs and/or files: 
+[1.769s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.775s] -- Added test 'lint_cmake' to check CMake code style
+[1.779s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.802s] -- Added test 'uncrustify' to check C / C++ code style
+[1.802s] -- Configured uncrustify additional arguments: 
+[1.806s] -- Added test 'xmllint' to check XML markup files
+[1.811s] -- Configuring done
+[1.814s] -- Generating done
+[1.816s] -- Build files have been written to: /home/lav2000/ros2_ws/src/coffee_bot/build/coffee_bot
+[1.820s] Invoked command in '/home/lav2000/ros2_ws/src/coffee_bot/build/coffee_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/lav2000/ros2_ws/src/coffee_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot
+[1.824s] Invoking command in '/home/lav2000/ros2_ws/src/coffee_bot/build/coffee_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lav2000/ros2_ws/src/coffee_bot/build/coffee_bot -- -j8 -l8
+[1.874s] Invoked command in '/home/lav2000/ros2_ws/src/coffee_bot/build/coffee_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lav2000/ros2_ws/src/coffee_bot/build/coffee_bot -- -j8 -l8
+[1.920s] Invoking command in '/home/lav2000/ros2_ws/src/coffee_bot/build/coffee_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/lav2000/ros2_ws/src/coffee_bot/build/coffee_bot
+[1.932s] -- Install configuration: ""
+[1.932s] -- Execute custom install script
+[1.933s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/coffee_bot/config/empty.yaml
+[1.946s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/coffee_bot/config/gazebo_params.yaml
+[1.959s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/coffee_bot/config/mapper_params_online_async.yaml
+[1.972s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/coffee_bot/config/twist_mux.yaml
+[1.985s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/coffee_bot/description/camera.xacro
+[1.997s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/coffee_bot/description/coffee_bot.urdf.xacro
+[2.010s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/coffee_bot/description/gazebo_control.xacro
+[2.022s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/coffee_bot/description/inertial_macros.xacro
+[2.035s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/coffee_bot/description/lidar.xacro
+[2.047s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/coffee_bot/description/robot_core.xacro
+[2.060s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/coffee_bot/launch/coffee_bot_gazebo.launch.py
+[2.073s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/coffee_bot/launch/joystick.launch.py
+[2.086s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/coffee_bot/launch/launch_sim.launch.py
+[2.098s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/coffee_bot/launch/online_async_launch.py
+[2.111s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/coffee_bot/launch/rsp.launch.py
+[2.124s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/coffee_bot/worlds/coffee.world
+[2.136s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/coffee_bot/worlds/coffee_map.world
+[2.149s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/coffee_bot/worlds/empty.world
+[2.162s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/coffee_bot/worlds/test.world
+[2.175s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/ament_index/resource_index/package_run_dependencies/coffee_bot
+[2.187s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/ament_index/resource_index/parent_prefix_path/coffee_bot
+[2.200s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/coffee_bot/environment/ament_prefix_path.sh
+[2.212s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/coffee_bot/environment/ament_prefix_path.dsv
+[2.225s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/coffee_bot/environment/path.sh
+[2.238s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/coffee_bot/environment/path.dsv
+[2.251s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/coffee_bot/local_setup.bash
+[2.264s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/coffee_bot/local_setup.sh
+[2.277s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/coffee_bot/local_setup.zsh
+[2.289s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/coffee_bot/local_setup.dsv
+[2.302s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/coffee_bot/package.dsv
+[2.315s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/ament_index/resource_index/packages/coffee_bot
+[2.328s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/coffee_bot/cmake/coffee_botConfig.cmake
+[2.341s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/coffee_bot/cmake/coffee_botConfig-version.cmake
+[2.353s] -- Symlinking: /home/lav2000/ros2_ws/src/coffee_bot/install/coffee_bot/share/coffee_bot/package.xml
+[2.371s] Invoked command in '/home/lav2000/ros2_ws/src/coffee_bot/build/coffee_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/lav2000/ros2_ws/src/coffee_bot/build/coffee_bot

@@ -1,0 +1,9 @@
+/home/lav2000/ros2_ws/src/coffee_bot/build/coffee_bot/CMakeFiles/install/strip.dir
+/home/lav2000/ros2_ws/src/coffee_bot/build/coffee_bot/CMakeFiles/install/local.dir
+/home/lav2000/ros2_ws/src/coffee_bot/build/coffee_bot/CMakeFiles/edit_cache.dir
+/home/lav2000/ros2_ws/src/coffee_bot/build/coffee_bot/CMakeFiles/test.dir
+/home/lav2000/ros2_ws/src/coffee_bot/build/coffee_bot/CMakeFiles/install.dir
+/home/lav2000/ros2_ws/src/coffee_bot/build/coffee_bot/CMakeFiles/list_install_components.dir
+/home/lav2000/ros2_ws/src/coffee_bot/build/coffee_bot/CMakeFiles/rebuild_cache.dir
+/home/lav2000/ros2_ws/src/coffee_bot/build/coffee_bot/CMakeFiles/coffee_bot_uninstall.dir
+/home/lav2000/ros2_ws/src/coffee_bot/build/coffee_bot/CMakeFiles/uninstall.dir

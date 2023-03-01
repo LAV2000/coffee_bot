@@ -1,0 +1,1 @@
+/home/lav2000/ros2_ws/src/coffee_bot/build/coffee_bot/ament_cmake_core/coffee_botConfig-version.cmake
