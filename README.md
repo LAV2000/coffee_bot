@@ -1,3 +1,5 @@
+Check pkgs: https://discourse.ros.org/t/new-packages-for-ros-2-humble-hawksbill-2022-06-10/25995
+
 Install Gazebo: sudo apt install ros-humble-gazebo-ros-pkgs
 
 Install  Xacro: sudo apt install ros-humble-xacro
