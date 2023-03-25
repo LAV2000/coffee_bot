@@ -1,4 +1,5 @@
 Install Gazebo: sudo apt install ros-humble-gazebo-ros-pkgs
+        Xacro: sudo apt install ros-humble-xacro
 
 https://github.com/ros2/teleop_twist_keyboard.git
 sudo apt-get install ros-foxy-joint-state-publisher-gui
